@@ -1,0 +1,14 @@
+{
+  "id": "taist-moysklad-import-google-sheets",
+  "js": "webapp/generated/js/import_google_sheets.js",
+  "css": "webapp/generated/styles/screen.css",
+  "title": "Импорт данных из Google sheets",
+  "siteName": "МойСклад",
+  "siteRegexp": ".moysklad.ru",
+  "shortDescription": "Аддон создает документы об отгрузке на основе данных взятых из Google Sheets",
+  "description": "moysklad-import-google-sheets.md",
+  "pages": [{
+    "path": "/app/",
+    "entryPoint": "addButton"
+  }]
+}
